@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:server": "pnpm --filter server dev",
+    "dev:client": "pnpm --filter client dev",
+    "build:server": "pnpm --filter server build",
+    "build:client": "pnpm --filter client build",
+    "db:push": "pnpm --filter server db:push",
+    "seed": "pnpm --filter server seed"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
