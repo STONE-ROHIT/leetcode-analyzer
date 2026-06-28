@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter client build",
+  "outputDirectory": "apps/client/dist",
+  "installCommand": "echo 'skip'"
+}
