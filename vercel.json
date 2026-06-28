@@ -1,5 +1,0 @@
-{
-  "buildCommand": "pnpm install && pnpm --filter client build",
-  "outputDirectory": "dist",
-  "installCommand": "echo 'skip'"
-}
